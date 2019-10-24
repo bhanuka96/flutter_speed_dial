@@ -71,6 +71,7 @@ class MyAppState extends State<MyApp> with TickerProviderStateMixin {
           child: Icon(Icons.keyboard_voice, color: Colors.white),
           backgroundColor: Colors.blue,
           onTap: () => print('THIRD CHILD'),
+          label: 'Third Child',
           labelWidget: Container(
             color: Colors.blue,
             margin: EdgeInsets.only(right: 10),
